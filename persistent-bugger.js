@@ -28,5 +28,9 @@ function persistence(num) {
     
     
   } return x}
+       
 
-console.log(persistence(999))
+    
+
+
+console.log(persistence(25))
