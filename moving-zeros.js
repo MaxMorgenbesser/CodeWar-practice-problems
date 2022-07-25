@@ -14,6 +14,10 @@ rep=str
      for (let i=0;i<split.length;i++){
         if (Number.isInteger(Number(split[i])))
         split[i]=Number(split[i])
+     }for (let i=0;i<split.length;i++){
+       if (!Number.isInteger(Number(split[i]))){
+        
+       }
      }
       return split ;
     }

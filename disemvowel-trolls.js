@@ -8,8 +8,8 @@ function disemvowel(str) {
             strArr.splice(i)
             
         }i++
-console.log(strArr)
-    }
+
+    }console.log(strArr)
     for (let x=0; x<strArr.length; x++){
     newStr=newStr+strArr[x]
     }
