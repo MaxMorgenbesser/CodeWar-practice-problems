@@ -1,3 +1,6 @@
+from re import L
+
+
 def min_max(lst):
     sorted=lst.sort()
     numlist=[]
@@ -5,3 +8,4 @@ def min_max(lst):
     numlist.append(lst[len(lst)-1])
     return numlist
 print(min_max([1,2,3,4,5]))
+
