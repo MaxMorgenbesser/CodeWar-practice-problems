@@ -1,4 +1,4 @@
-from re import I
+
 
 
 def stray(arr):
